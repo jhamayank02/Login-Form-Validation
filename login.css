@@ -1,0 +1,21 @@
+.myContainer{
+    width: 60%;
+    margin: auto;
+}
+
+.myInput{
+    width: 100%;
+}
+
+.Box{
+    margin: 25px 0;
+}
+
+small{
+    color: red;
+    display: none;
+}
+
+.imp{
+    color: red;
+}

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    <title>Login Form</title>
+</head>
+
+<body>
+    <div id="successFailure">
+        
+    </div>
+
+    <div class="container myContainer">
+
+        <h1 class="my-5">Login Form</h1>
+        <form action="#">
+            <div class="Box" id="usernameBox">
+                <label for="" id="username">Username<span class="imp">*</span></label>
+                <div><input type="text" placeholder="Enter Your username" id="usernameInput" class="myInput"></div>
+                <small id="invalidUsername">*Username must be 3-10 characters long and contains only lowercase letters(a-z) and numbers(0-9)</small>
+            </div>
+
+            <div class="Box" id="passwordBox">
+                <label for="" id="password">Password<span class="imp">*</span></label>
+                <div><input type="password" placeholder="Enter Your username" id="passwordInput" class="myInput"></div>
+                <small id="invalidPassword">*Password must be strong and contains lowercase(a-z) and uppercase(A-Z) letters, special symbols and numbers(0-9)</small>
+            </div>
+
+            <div class="Box" id="nameBox">
+                <label for="" id="name">Name<span class="imp">*</span></label>
+                <div><input type="text" placeholder="Enter Your name" id="nameInput" class="myInput"></div>
+                <small id="invalidName">*Name must contains only alphabets</small>
+            </div>
+
+            <div class="Box" id="contactBox">
+                <label for="" id="contact">Contact No.<span class="imp">*</span></label>
+                <div><input type="text" placeholder="Enter Your contact no." id="contactInput" class="myInput"></div>
+                <small id="invalidContact">*Contact no. must  conatins 10 digits</small>
+            </div>
+
+            <div class="Box" id="EmailBox">
+                <label for="" id="email">Email-Id<span class="imp">*</span></label>
+                <div><input type="text" placeholder="Enter Your email-id" id="emailInput" class="myInput"></div>
+                <small id="invalidEmail">*Email-Id must be in correct format e.g. hjhs11@xyz.abc
+                </small>
+            </div>
+
+            <div class="Box" id="websiteBox">
+                <label for="" id="website">Website URL<span class="imp">*</span></label>
+                <div><input type="text" placeholder="Enter Your Website url" id="websiteInput" class="myInput"></div>
+                <small id="invalidWebsite">*Website url must contains valid domain names</small>
+            </div>
+
+            <div class="Box" id="adhaarBox">
+                <label for="" id="adhaar">Adhaar Card Details<span class="imp">*</span></label>
+                <div><input type="text" placeholder="Enter Your adhaar card number" id="adhaarInput" class="myInput"></div>
+                <small id="invalidAdhaar">*Adhaar card number must be valid and 12 digits long</small>
+            </div>
+
+            <div class="Box">
+                <label for="" id="address">Address</label>
+                <div><textarea name="" id="" cols="30" rows="5" placeholder="Enter Your address" id="addressInput" class="myInput"></textarea></div>
+            </div>
+
+        </form>
+        <button class="btn btn-primary" id="submitBtn">Submit</button>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+<script src="login.js"></script>
+
+</html>
